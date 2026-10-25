@@ -1,0 +1,30 @@
+{
+  "valid": {
+    "email": "Jane.Doe@Example.com",
+    "firstname": "Jane",
+    "lastname": "Doe",
+    "phone": "+1 (555) 123-4567",
+    "company": "Acme Corp",
+    "jobtitle": "Head of Operations",
+    "website": "https://acme.example.com"
+  },
+  "minimal": {
+    "email": "john.smith@example.com",
+    "firstname": "John",
+    "lastname": "Smith"
+  },
+  "invalidEmail": {
+    "email": "not-an-email",
+    "firstname": "Bad",
+    "lastname": "Email"
+  },
+  "missingNames": {
+    "email": "nameless@example.com"
+  },
+  "invalidPhone": {
+    "email": "short.phone@example.com",
+    "firstname": "Short",
+    "lastname": "Phone",
+    "phone": "12-34"
+  }
+}
